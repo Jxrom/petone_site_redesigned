@@ -4,6 +4,7 @@ import FoodCategory from "@/components/FoodCategory";
 import Image from "next/image";
 import Vision from "@/components/Vision";
 import BlogSection from "@/components/BlogSection";
+import FAQSection from "@/components/FAQSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <Vision />
 
       <BlogSection />
+
+      <FAQSection />
     </main>
   );
 }
