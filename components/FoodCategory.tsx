@@ -6,7 +6,7 @@ export default function FoodCategory() {
       <div className=" md:mx-30 ">
         <h2 className="text-2xl font-semibold text-[#E0027B]">Our Products</h2>
 
-        <div className="grid grid-cols-2 gap-2  p-4 justify-items-center md:flex md:flex-row md:justify-center md:gap-20  ">
+        <div className="grid grid-cols-2 gap-2  mt-8 justify-items-center md:flex md:flex-row md:justify-center md:gap-20  ">
           <CategoryButton
             imageSrc="/images/dog_food.webp"
             href=""
